@@ -6,13 +6,12 @@ import { useEffect } from "react"
 
 export default function HomeView() {
   useEffect(() => {
-    // Set up auto-reload every 10 seconds
-    // const reloadTimer = setTimeout(() => {
-    //   window.location.reload()
-    // }, 10000) // 10 seconds in milliseconds
+    const reloadTimer = setTimeout(() => {
+      window.location.reload()
+    }, 10000) // 10 seconds in milliseconds
 
-    // // Clean up the timer when component unmounts
-    // return () => clearTimeout(reloadTimer)
+    // Clean up the timer when component unmounts
+    return () => clearTimeout(reloadTimer)
   }, []) // Empty dependency array ensures this runs once after initial render
 
   return (
