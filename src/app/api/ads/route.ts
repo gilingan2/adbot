@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server"
-
+export const dynamic = "force-static"
 let config = {
   scriptSrc: process.env.NEXT_PUBLIC_SCRIPT_SRC || "",
   key: process.env.NEXT_PUBLIC_KEY || "",
