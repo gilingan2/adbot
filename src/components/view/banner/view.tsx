@@ -12,7 +12,7 @@ export default function BannerView() {
     // Set up auto-reload every 10 seconds
     const reloadTimer = setTimeout(() => {
       window.location.reload()
-    }, 10000) // 10 seconds in milliseconds
+    }, 15000) // 10 seconds in milliseconds
 
     // // Clean up the timer when component unmounts
     return () => clearTimeout(reloadTimer)
