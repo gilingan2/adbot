@@ -7,7 +7,7 @@ import { useEffect } from "react"
 // We can't use metadata directly in client components
 // The metadata is defined in home-metadata.tsx
 
-export default function BannerView() {
+export default function DirectView() {
   useEffect(() => {
     // Set up auto-reload every 10 seconds
     const reloadTimer = setTimeout(() => {
