@@ -12,7 +12,7 @@ export default function DirectView() {
     // Set up auto-reload every 10 seconds
     const reloadTimer = setTimeout(() => {
       window.location.reload()
-    }, 20000) // 10 seconds in milliseconds
+    }, 40000) // 10 seconds in milliseconds
 
     // // Clean up the timer when component unmounts
     return () => clearTimeout(reloadTimer)
